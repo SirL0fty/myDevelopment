@@ -13,5 +13,5 @@ def find_bird(words):
         return min(words)
 
 if __name__ == "__main__":
-
+        word_list = ["hamster", "turtle", "cat", "bird"]
         print(find_bird(word_list))
